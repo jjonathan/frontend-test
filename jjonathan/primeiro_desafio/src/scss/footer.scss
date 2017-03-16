@@ -1,0 +1,62 @@
+.page{
+	.footer{
+		padding-bottom: 80px;
+
+		.info{
+			padding-bottom: 30px;
+
+			.title,
+			.item{
+				font-weight: $font-regular;
+			}
+
+			.sub-title,
+			.link{
+				font-weight: $font-bold;
+			}
+
+			.item,
+			.link{
+				font-size: 13px;
+			}
+
+			.title{
+				font-size: 20px;
+			}
+
+			.sub-title{
+				font-size: 16px;
+				padding: 20px 0px;
+			}
+
+			.link{
+				padding-top: 40px;
+			}
+
+			.images{
+				padding-top: 30px;
+				.img-row{
+					padding-bottom: 20px;	
+				}
+				.img-row:last-child{
+					padding-bottom: 0px;
+				}
+			}
+		}
+
+		.contacts{
+			padding: 30px 0px;
+
+			.contact{
+				font-weight: $font-semibold;
+				font-size: 13px;
+			}
+		}
+
+		.copyright{
+			padding-top: 30px;
+			font-size: 13px;
+			font-weight: $font-semibold;
+		}
+	}	
+}

@@ -1,0 +1,25 @@
+.content{
+	.side-bar{
+		padding: 16px 0px 16px 0px;
+
+		.title,
+		.sub-item{
+			font-weight: $font-regular;
+		}
+
+		.title{
+			padding: 0px 0px 10px 0px;
+			font-size: 16px;
+		}
+		.item{
+			padding: 20px 0px 0px 0px;
+			font-size: 14px;
+		}
+		.item-title{
+			font-weight: $font-bold;
+		}
+		.sub-item{
+			padding: 10px 0px 0px 0px;
+		}
+	}
+}

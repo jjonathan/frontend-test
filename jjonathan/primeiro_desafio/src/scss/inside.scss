@@ -1,0 +1,33 @@
+.content{
+	.inside{
+		padding-bottom: 80px;
+
+		.inside-title{
+			font-size: 20px;
+			font-weight: $font-light;
+		}
+
+		.inside-content,
+		.legend{
+			font-size: 16px;
+		}
+
+		.inside-content{
+			font-weight: $font-regular;
+		}
+
+		.legend{
+			font-weight: $font-semibold;
+			padding: 16px 0px;
+			text-align: center;
+		}
+
+		.full-img{
+			padding: 40px 0px;
+		}
+
+		.box{
+			padding-top: 16px;
+		}
+	}
+}
