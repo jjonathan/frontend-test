@@ -1,0 +1,26 @@
+{
+  "name": "primeiro_desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Machado (https://github.com/jjonathan)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-live-server": "0.0.30",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-order": "^1.1.1",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "load-gulp-tasks": "^0.1.0",
+    "pump": "^1.0.2"
+  }
+}
