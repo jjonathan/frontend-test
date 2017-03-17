@@ -15,6 +15,9 @@ var options = {
 			'js'	: './js/',
 			'img'	: './img/', 
 			'css'	: './css/',
+		},
+		'main' : {
+			'scss'	: '.src/scss/main.scss'
 		}
 	}
 };

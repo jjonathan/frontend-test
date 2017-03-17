@@ -1,30 +1,60 @@
 .page{
-	.header{ 
-		padding-top: 10px 0px 10px 0px;
-
-		.logo{
+	.header{
+		img.logo{
+			float: left;
 			box-shadow: 0px 0px 10px 0px #000000;
 			opacity: 20%;
 		}
 
-		.main-menu,
-		.btn{
-			font-size: 16px;
-		}
+		div.menu-header{
+			border: $cor-bordas 1px solid;
+			padding-top: 10px 0px 10px 0px;
+			background-color: $cor-header;
 
-		.main-menu{
-			font-weight: $font-semibold;
-		}
+			ul.main-menu{
+				font-weight: $font-semibold;
+				float: left;
 
-		.btn{
-			display: flex;
-			font-weight: $font-bold;
+				li.menu-item{
+					margin: 10px 10px;
+					border-right: $cor-bordas 1px solid;
+				}
+
+				li.menu-item:last-child{
+					border-right: 0px;
+				}
+			}
+
+			.btn{
+				font-weight: $font-bold;
+				float: right;
+				color: white;
+				background-color: $orange;
+			}
+
+			ul.main-menu,
+			.btn{
+				font-size: 16px;
+			}
 		}
 		
-		.breadcrumb{
+		ul.breadcrumb{
 			padding-top: 16px 0px 16px 0px;
 			font-weight: $font-regular;
 			font-size: 12px;
+			float: left;
+
+			li.breadcrumb-item{
+				padding: 5px 0px;
+			}
+
+			li.breadcrumb-item::after{
+				content: '<i class="fa fa-chevron-right" aria-hidden="true"></i>';
+			}
+
+			li.breadcrumb-item:last-child::after{
+				content: '';
+			}
 		}
 	}
 }

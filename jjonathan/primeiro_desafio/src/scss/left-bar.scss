@@ -1,0 +1,45 @@
+.content{
+	.left-bar{
+		border: 1px solid $cor-bordas;
+		margin: 6px 6px;
+		float: left;
+
+		div.title{
+			margin: 10px 10px;
+			font-weight: $font-regular;
+			font-size: 16px;
+			color: $orange!important;
+			border-bottom: 1px solid $cor-bordas;
+		}
+
+		div.item-list{
+			margin-bottom: 10px;
+			ul{
+				li.item-title{
+					padding-top: 20px;
+					font-weight: $font-bold;
+					color: $blue;
+					border-bottom: 1px solid $cor-bordas;
+				}
+
+				li.item{
+					padding-top: 10px;
+					font-weight: $font-regular;
+				}
+
+				li.item-title::before{
+					content: '<i class="fa fa-caret-right orange" aria-hidden="true"></i>';
+				}
+
+				li.item:last-child{
+					padding-top: 0px;
+				}
+
+				li.item-title,
+				li.item{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

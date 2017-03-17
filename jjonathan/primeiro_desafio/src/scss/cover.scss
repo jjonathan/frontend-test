@@ -1,5 +1,30 @@
 .content{
 	.cover{
-		padding-top: 40px 0px 40px 0px;
+		padding-bottom: 40px;
+
+		ul.cover-list{
+			margin-right: 10px;
+
+			li.cover-item{
+				float: left;
+
+				img{
+					max-height: 245px;
+					max-width: 700px;
+					width: 100%;
+				}
+			}
+		}
+
+		div.cover-fix{
+			float: right;
+			border: 1px solid $pink;
+			margin-left: 10px;
+			img{
+				max-height: 250px;
+				max-width: 220px;
+				width: 100%;
+			}
+		}
 	}
 }
