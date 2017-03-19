@@ -3,7 +3,7 @@
 		height: 500px;
 		float: left;
 		width: 75%;
-		padding-left: 15px;
+		padding-left: 11px;
 
 		div.inside-part{
 			float: left;
@@ -29,7 +29,6 @@
 
 			div.main-img{
 				background-image: url('../img/food-700x200.jpg');
-				width: 150%;
 				height: 200px;
 				margin: 40px 0px;
 
@@ -48,9 +47,9 @@
 			}
 
 			div.box{
-				margin: 8px;
-				width: 220px;
-				height: 150px;
+				margin: 2%;
+				width: 30%;
+				height: 10em;
 				border: $orange 1px solid;
 				float: left;
 				text-align: center;
@@ -94,6 +93,10 @@
 				border-radius: 10px;
 				width: 100%;
 			}
+		}
+
+		.main-img{
+			width: 99%;
 		}
 	}
 }
