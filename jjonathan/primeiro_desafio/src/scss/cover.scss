@@ -1,29 +1,25 @@
-.content{
+.page{
 	.cover{
-		padding-bottom: 40px;
+		height: 250px;
+		padding: 40px 200px;
 
-		ul.cover-list{
-			margin-right: 10px;
+		div.cover-list{
+			float: left;
 
-			li.cover-item{
-				float: left;
-
-				img{
-					max-height: 245px;
-					max-width: 700px;
-					width: 100%;
-				}
+			img{				
+				height: 245px;
 			}
 		}
 
 		div.cover-fix{
 			float: right;
-			border: 1px solid $pink;
-			margin-left: 10px;
+			border: 3px solid $pink;
+			height: 242px;
+			width: 217px;
+
 			img{
-				max-height: 250px;
-				max-width: 220px;
-				width: 100%;
+				height: 242px;
+				width: 217px;
 			}
 		}
 	}

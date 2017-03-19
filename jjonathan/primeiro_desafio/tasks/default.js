@@ -3,6 +3,7 @@ module.exports = function (gulp, options, plugins) {
     	'imgTask',
         'scriptTask',
         'styleTask',
+        'svgTask',
         'watchTask',
         'serverTask']);
 };

@@ -7,17 +7,19 @@ var options = {
 	'paths' : {
 		'src' : {
 			'js'	: './src/js/*',
-			'img'	: './src/img/*',
+			'img'	: './src/img/*/*',
 			'scss'	: './src/scss/*',
-			'html'	: './*.html'
+			'svg'	: './src/svg/*',
+			'html'	: "./*.html"
 		},
 		'dist' : {
 			'js'	: './js/',
 			'img'	: './img/', 
 			'css'	: './css/',
+			'svg'	: './svg/'
 		},
 		'main' : {
-			'scss'	: '.src/scss/main.scss'
+			'scss'	: './src/scss/main.scss'
 		}
 	}
 };

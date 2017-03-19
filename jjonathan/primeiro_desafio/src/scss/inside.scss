@@ -1,15 +1,19 @@
-div.content{
+.content{
 	div.inside{
-		float: left;
 
 		div.inside-part{
+			max-width: 700px;
 			margin-left: 20px;
+			float: right;
 
 			div.inside-title{
 				font-size: 20px;
 				font-weight: $font-light;
 				margin-bottom: 20px;
 				border-bottom: 1px solid $cor-bordas;
+				width: 100%;
+				color: $pink;
+				padding-bottom: 15px;
 			}
 
 			div.inside-content,
@@ -21,27 +25,33 @@ div.content{
 				font-weight: $font-regular;
 			}
 
-			div.full-img{
-				padding: 40px 0px;
+			div.main-img{
+				background-image: url('../img/food-700x200.jpg');
+				width: 700px;
+				height: 200px;
+				margin: 40px 0px;
 
 				div.box-legend{
-					background-color: black;
-					opacity: 0.2;
-					margin-bottom: 0px;
+				    bottom: 0;
+				    padding-top: 21%;
 
 					div.text-legend{
+						background-color: rgba(0, 0, 0, 0.2);
 						font-weight: $font-semibold;
 						padding: 16px 0px;
 						text-align: center;
+						color: white;
 					}
 				}
 			}
 
 			div.box{
-				margin: 10px;
+				margin: 8px;
 				padding: 16px 0px;
-				width: 100px;
-				height: 100px;
+				width: 220px;
+				height: 130px;
+				border: $orange 1px solid;
+				float: left;
 
 				div.box-icon{
 					max-height: 26px;
@@ -54,6 +64,26 @@ div.content{
 					text-align: center;
 				}
 			}
-		}		
+
+			div.box:first-child{
+				margin-left: 0px;
+			}
+
+			div.box:last-child{
+				margin-right: 0px;
+			}
+		}
+
+		.main-content{
+			width: 460px;
+		}
+
+		.minor-content{
+			width: 220px;
+
+			img{
+				border-radius: 10px;
+			}
+		}
 	}
 }

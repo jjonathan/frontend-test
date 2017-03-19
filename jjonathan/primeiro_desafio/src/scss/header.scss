@@ -1,22 +1,33 @@
 .page{
 	.header{
-		img.logo{
+		height: 111px;
+		div.logo{
+			background: white;
+			width: 120px;
+			height: 110px;			
 			float: left;
-			box-shadow: 0px 0px 10px 0px #000000;
-			opacity: 20%;
+			box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+			text-align: center;
+			img{
+				width: 100px;
+				height: 100px;
+				margin: 10px;
+			}
 		}
 
 		div.menu-header{
 			border: $cor-bordas 1px solid;
-			padding-top: 10px 0px 10px 0px;
-			background-color: $cor-header;
-
+			background: $cor-header;
+			padding: 0px 200px;
+			height: 50px;
 			ul.main-menu{
 				font-weight: $font-semibold;
 				float: left;
 
 				li.menu-item{
-					margin: 10px 10px;
+					display: inline;
+					padding: 0px 15px;
+					height: 15px;
 					border-right: $cor-bordas 1px solid;
 				}
 
@@ -25,11 +36,18 @@
 				}
 			}
 
-			.btn{
-				font-weight: $font-bold;
+			button.btn{
 				float: right;
+				font-weight: $font-bold;
 				color: white;
 				background-color: $orange;
+				margin: 10px 0px;
+				padding: 5px 30px;
+				border-radius: 5px;
+				border-width: 0px;
+				use{
+					fill:white;
+				}
 			}
 
 			ul.main-menu,
@@ -39,17 +57,21 @@
 		}
 		
 		ul.breadcrumb{
-			padding-top: 16px 0px 16px 0px;
+			padding-top: 10px;
 			font-weight: $font-regular;
 			font-size: 12px;
-			float: left;
+
+			li.breadcrumb-item:first-child{
+				margin-left: 15px;
+			}
 
 			li.breadcrumb-item{
 				padding: 5px 0px;
+				display: inline;
 			}
 
 			li.breadcrumb-item::after{
-				content: '<i class="fa fa-chevron-right" aria-hidden="true"></i>';
+				content: ' >';
 			}
 
 			li.breadcrumb-item:last-child::after{
