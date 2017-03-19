@@ -1,13 +1,15 @@
 .page{
 	.cover{
 		height: 250px;
-		padding: 40px 200px;
+		padding: 40px $side-blank;
 
 		div.cover-list{
 			float: left;
+			width: 74%;
 
-			img{				
+			img{
 				height: 245px;
+				width: 100%;
 			}
 		}
 
@@ -15,11 +17,12 @@
 			float: right;
 			border: 3px solid $pink;
 			height: 242px;
-			width: 217px;
+			width: 23%;
+			border-radius: 5px 5px 0px 0px;
 
 			img{
 				height: 242px;
-				width: 217px;
+				width: 100%;
 			}
 		}
 	}

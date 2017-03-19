@@ -3,8 +3,8 @@
 		height: 111px;
 		div.logo{
 			background: white;
-			width: 120px;
-			height: 110px;			
+			width: 13%;
+			height: 110px;		
 			float: left;
 			box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 			text-align: center;
@@ -18,7 +18,7 @@
 		div.menu-header{
 			border: $cor-bordas 1px solid;
 			background: $cor-header;
-			padding: 0px 200px;
+			padding: 0px $side-blank;
 			height: 50px;
 			ul.main-menu{
 				font-weight: $font-semibold;
@@ -45,9 +45,6 @@
 				padding: 5px 30px;
 				border-radius: 5px;
 				border-width: 0px;
-				use{
-					fill:white;
-				}
 			}
 
 			ul.main-menu,
@@ -57,7 +54,7 @@
 		}
 		
 		ul.breadcrumb{
-			padding-top: 10px;
+			padding: 15px $side-blank 0px $side-blank;
 			font-weight: $font-regular;
 			font-size: 12px;
 

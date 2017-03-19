@@ -1,10 +1,12 @@
 .content{
 	div.inside{
+		height: 500px;
+		float: left;
+		width: 75%;
+		padding-left: 15px;
 
 		div.inside-part{
-			max-width: 700px;
-			margin-left: 20px;
-			float: right;
+			float: left;
 
 			div.inside-title{
 				font-size: 20px;
@@ -27,16 +29,16 @@
 
 			div.main-img{
 				background-image: url('../img/food-700x200.jpg');
-				width: 700px;
+				width: 150%;
 				height: 200px;
 				margin: 40px 0px;
 
 				div.box-legend{
-				    bottom: 0;
-				    padding-top: 21%;
+					bottom: 0;
+					padding-top: 21%;
 
 					div.text-legend{
-						background-color: rgba(0, 0, 0, 0.2);
+						background-color: rgba(0, 0, 0, 0.5);
 						font-weight: $font-semibold;
 						padding: 16px 0px;
 						text-align: center;
@@ -47,21 +49,27 @@
 
 			div.box{
 				margin: 8px;
-				padding: 16px 0px;
 				width: 220px;
-				height: 130px;
+				height: 150px;
 				border: $orange 1px solid;
 				float: left;
+				text-align: center;
 
 				div.box-icon{
-					max-height: 26px;
 					text-align: center;
+					padding: 15px 0px;
+					img{
+						max-height: 55px;
+						height: 100%;
+						width: 100%;
+					}
 				}
 
 				div.box-text{
+					padding: 0px 25px;
 					max-height: 26px;
 					word-wrap: break-word;
-					text-align: center;
+					font-size: 14px;
 				}
 			}
 
@@ -75,14 +83,16 @@
 		}
 
 		.main-content{
-			width: 460px;
+			width: 65%;
 		}
 
 		.minor-content{
-			width: 220px;
+			width: 30%;
+			padding-left: 25px;
 
 			img{
 				border-radius: 10px;
+				width: 100%;
 			}
 		}
 	}
