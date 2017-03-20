@@ -1,0 +1,8 @@
+.content{
+	margin: 0px $side-blank;
+	height: 50em;
+	width: $side-middle-side;
+}
+
+@import 'side-menu';
+@import 'inside';

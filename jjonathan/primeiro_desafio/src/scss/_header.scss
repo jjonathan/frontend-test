@@ -20,6 +20,8 @@
 			background: $cor-header;
 			padding: 0px $side-blank;
 			height: 50px;
+			width: $side-middle-side;
+			
 			ul.main-menu{
 				font-weight: $font-semibold;
 				float: left;
@@ -57,6 +59,7 @@
 			padding: 15px $side-blank 0px $side-blank;
 			font-weight: $font-regular;
 			font-size: 12px;
+			width: $side-middle-side;
 
 			li.breadcrumb-item:first-child{
 				margin-left: 15px;
@@ -65,10 +68,6 @@
 			li.breadcrumb-item{
 				padding: 5px 0px;
 				display: inline;
-			}
-
-			li.breadcrumb-item::after{
-				content: ' >';
 			}
 
 			li.breadcrumb-item:last-child::after{

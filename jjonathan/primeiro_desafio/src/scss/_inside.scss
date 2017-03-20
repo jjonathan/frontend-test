@@ -1,9 +1,8 @@
 .content{
 	div.inside{
-		height: 500px;
-		float: left;
-		width: 75%;
-		padding-left: 11px;
+		height: 46em;
+		float: right;
+		width: $side-middle;
 
 		div.inside-part{
 			float: left;
@@ -11,11 +10,10 @@
 			div.inside-title{
 				font-size: 20px;
 				font-weight: $font-light;
-				margin-bottom: 20px;
 				border-bottom: 1px solid $cor-bordas;
-				width: 100%;
 				color: $pink;
-				padding-bottom: 15px;
+				margin-bottom: 20px;
+				padding-bottom: 20px;
 			}
 
 			div.inside-content,
@@ -25,15 +23,18 @@
 
 			div.inside-content{
 				font-weight: $font-regular;
+				p:first-child{
+					margin-top: 0px;
+				}
 			}
 
 			div.main-img{
 				background-image: url('../img/food-700x200.jpg');
 				height: 200px;
 				margin: 40px 0px;
+				width: 695px;
 
 				div.box-legend{
-					bottom: 0;
 					padding-top: 21%;
 
 					div.text-legend{
@@ -47,21 +48,23 @@
 			}
 
 			div.box{
-				margin: 2%;
+				margin: 0% 2%;
 				width: 30%;
-				height: 10em;
+				height: 170px;
 				border: $orange 1px solid;
 				float: left;
 				text-align: center;
 
 				div.box-icon{
-					text-align: center;
-					padding: 15px 0px;
-					img{
-						max-height: 55px;
-						height: 100%;
-						width: 100%;
+					div.box-circle{
+					    border: 5px $pink solid;
+					    border-radius: 50%;
+					    margin: 0px 60px;
 					}
+					text-align: center;
+					padding: 5px 0px;
+					font-size: 55px;
+					color: $pink;
 				}
 
 				div.box-text{
@@ -82,12 +85,12 @@
 		}
 
 		.main-content{
-			width: 65%;
+			width: $middle-size - 1em;
 		}
 
 		.minor-content{
-			width: 30%;
-			padding-left: 25px;
+			width: $side-size - 1em;
+			margin-left: 3%;
 
 			img{
 				border-radius: 10px;
@@ -96,7 +99,7 @@
 		}
 
 		.main-img{
-			width: 99%;
+			width: 100%;
 		}
 	}
 }

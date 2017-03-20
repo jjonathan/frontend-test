@@ -2,7 +2,7 @@
 	.side-menu{
 		border: 1px solid $cor-bordas;
 		float: left;
-		width: 23%;
+		width: $side-size - 1em;
 
 		div.title{
 			margin: 0px 10px;
@@ -25,6 +25,9 @@
 					padding-top: 20px;
 					font-weight: $font-bold;
 					color: $blue;
+					i{
+						color: $orange;
+					}
 				}
 
 				li.item{

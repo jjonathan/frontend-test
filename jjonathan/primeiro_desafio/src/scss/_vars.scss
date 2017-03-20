@@ -17,5 +17,7 @@ $blue:				#20b7ce;
 $side-blank: 		15%;
 
 //Sizers
-$sides-size:		13;
-$middle-size:		22;
+$side-size:			15em;
+$middle-size:		29em;
+$side-middle:		$side-size + $middle-size;
+$side-middle-side:	$side-size + $middle-size + $side-size;

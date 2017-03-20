@@ -13,6 +13,7 @@
 				height: 320px;
 				border-bottom: 1px solid $cor-bordas;
 				padding-bottom: 30px;
+				width: $side-middle-side;
 
 				.title{
 					padding-top: 40px;
@@ -62,6 +63,9 @@
 							float: left;
 							font-weight: $font-bold;
 							font-size: 13px;
+							a{
+								color: $cor-textos;
+							}
 						}
 					}
 				}
@@ -89,12 +93,13 @@
 			}
 
 			div.contacts{
-				padding: 30px $side-blank 0px $side-blank;
+				margin: 30px $side-blank 0px $side-blank;
 				height: 20px;
-				font-weight: $font-semibold;
-				font-size: 13px;
+				width: $side-middle-side;
 
 				div.menu-item{
+					font-weight: $font-semibold;
+					font-size: 13px;
 					display: inline;
 					padding: 0px 15px;
 					height: 15px;
@@ -136,6 +141,7 @@
 			div.copyright{
 				margin: 0px $side-blank 0px $side-blank;
 				padding-top: 30px;
+				width: $side-middle-side;
 				div{
 					font-weight: $font-semibold;
 					font-size: 13px;

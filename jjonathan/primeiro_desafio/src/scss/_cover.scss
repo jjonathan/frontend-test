@@ -2,26 +2,30 @@
 	.cover{
 		height: 250px;
 		padding: 40px $side-blank;
+		width: $side-middle-side;
 
 		div.cover-list{
 			float: left;
-			width: 74%;
+			width: $side-middle - 1em;
 
 			img{
-				height: 245px;
+				height: 250px;
 				width: 100%;
 			}
 		}
 
 		div.cover-fix{
-			float: right;
+			box-sizing: border-box;
+			float: left;
 			border: 3px solid $pink;
-			height: 242px;
-			width: 23%;
+			height: 250px;
+			width: $side-size - 1em;
 			border-radius: 5px 5px 0px 0px;
+			margin-left: 3%;
+			overflow: hidden;
 
 			img{
-				height: 242px;
+				height: 250px;
 				width: 100%;
 			}
 		}
