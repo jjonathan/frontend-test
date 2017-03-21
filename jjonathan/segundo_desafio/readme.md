@@ -4,7 +4,7 @@
 
 * Instalar [node](https://nodejs.org/en/)
 * Instalar gulp global `npm install -g gulp`
-* Ir até a pasta do primeiro desafio `cd root\jjonathan\primeiro_desafio`
+* Ir até a pasta do segundo desafio `cd root\jjonathan\segundo_desafio`
 * Rodar o comando `npm install` para instalar todas as dependencias encontradas no arquivo [package.json](./package.json)
 * Rodar o comando `gulp` para compilar e gerar os css e js minificados.
 
