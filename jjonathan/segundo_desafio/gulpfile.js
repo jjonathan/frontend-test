@@ -7,15 +7,10 @@ var options = {
 	'paths' : {
 		'src' : {
 			'js'	: './src/js/*',
-			'scss'	: './src/scss/*',
 			'html'	: "./*.html"
 		},
 		'dist' : {
 			'js'	: './js/',
-			'css'	: './css/'
-		},
-		'main' : {
-			'scss'	: './src/scss/main.scss'
 		}
 	}
 };
