@@ -6,14 +6,12 @@ var options = {
 	'pump'	: pump,
 	'paths' : {
 		'src' : {
-			'js'	: './src/js/*',
 			'img'	: './src/img/*/*',
 			'scss'	: './src/scss/*',
 			'svg'	: './src/svg/*',
 			'html'	: "./*.html"
 		},
 		'dist' : {
-			'js'	: './js/',
 			'img'	: './img/', 
 			'css'	: './css/',
 			'svg'	: './svg/'
